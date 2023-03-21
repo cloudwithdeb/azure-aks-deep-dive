@@ -135,9 +135,9 @@
 | Simple Nginx V4  | stacksimplify/kubenginx:4.0.0  |
 | Backend Application  | stacksimplify/kube-helloworld:1.0.0  |
 | Frontend Application  | stacksimplify/kube-frontend-nginx:1.0.0  |
-| Kube Nginx App1  | stacksimplify/kube-nginxapp1:1.0.0  |
+| Kube Nginx App1  | cloudwithdeb/kube-nginxapp1:1.0.0  |
 | Kube Nginx App2  | stacksimplify/kube-nginxapp2:1.0.0  |
-| User Management Web Application  | stacksimplify/kube-usermgmt-webapp:1.0.0-MySQLDB  |
+| User Management Web Application  | cloudwithdeb/kube-usermgmt-webapp:1.0.0-MySQLDB  |
 
 ## List of Docker Images you build in Azure Container Registry
 
