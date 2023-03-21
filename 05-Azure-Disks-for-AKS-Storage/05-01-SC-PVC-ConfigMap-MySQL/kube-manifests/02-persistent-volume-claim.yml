@@ -4,7 +4,7 @@ metadata:
   name: azure-managed-disk-pvc
 spec:
   accessModes:
-  - ReadWriteOnce
+  - ReadWriteOnce # Other options include ReadWriteMany and ReadOnlyOnce
   storageClassName: managed-premium-retain-sc
   resources:
     requests:

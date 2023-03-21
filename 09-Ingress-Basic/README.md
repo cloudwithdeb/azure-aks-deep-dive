@@ -14,6 +14,10 @@
 - Deploy a simple Nginx App1 with Ingress manifest and test it
 - Clean-Up or delete application after testing
 
+## Azure API Gateway Ingeress
+### AGW Annotations
+https://azure.github.io/application-gateway-kubernetes-ingress/annotations/#backend-protocol
+
 ## Step-02: Create Static Public IP
 ```t
 # Get the resource group name of the AKS cluster 
@@ -62,7 +66,7 @@ helm install ingress-nginx ingress-nginx/ingress-nginx \
     --set controller.nodeSelector."kubernetes\.io/os"=linux \
     --set defaultBackend.nodeSelector."kubernetes\.io/os"=linux \
     --set controller.service.externalTrafficPolicy=Local \
-    --set controller.service.loadBalancerIP="52.154.156.139"     
+    --set controller.service.loadBalancerIP="172.177.69.64"     
 
 
 # List Services with labels
